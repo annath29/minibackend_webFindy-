@@ -1,46 +1,149 @@
 {
     "users":[
         {
-        "id":1,
+        "id":"52af",
         "name":"Jennie Kim",
         "email":"Jennie@email.com",
         "password":"Jennie1234",
         "description":"Hello guys Follow me and like my post",
         "profile_photo" :"https://i.pinimg.com/236x/ee/7b/0c/ee7b0c70baa8a2f266d34f60238bba1b.jpg",
-        "cover_photo":"https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-wearing-hats-taking-photos-picture-image_2505109.jpg"
-        }
-    ],
-
-    "profile":[
-        {
-            "id":"52af",
-            "id_user":1,
-            "followers":10.7,
-            "post":["478ef","ad192"]
+        "cover_photo":"https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-wearing-hats-taking-photos-picture-image_2505109.jpg",
+        "followers":10.7,
+        "followed":["8ac21"],
+        "post":["478ef","ad192"]
         },
         {
-            "id":"8ac21",
-            "id_user":2,
-            "followers":10.7,
-            "post":["ad192"]
-        }
+            "id": "8ac21",
+            "name": "Lisa Manoban",
+            "email": "Lisa@email.com",
+            "password": "Lisa1234",
+            "description": "Hey everyone! Let's spread love and positivity!",
+            "profile_photo": "https://i.pinimg.com/236x/af/7c/20/af7c208e31b02a4c4f3f498bb4c4fd75.jpg",
+            "cover_photo": "https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-wearing-hats-taking-photos-picture-image_2505109.jpg",
+            "followers": 9.5,
+            "followed": ["52af"],
+            "post": ["17bf2", "39c8a"]
+          },
+          {
+            "id": "17bf2",
+            "name": "Roseanne Park",
+            "email": "Rose@email.com",
+            "password": "Rose1234",
+            "description": "Hi everyone! Join me on my journey!",
+            "profile_photo": "https://i.pinimg.com/236x/42/17/a3/4217a3b4ed9e5f4a6ec839ff7bfc4ab2.jpg",
+            "cover_photo": "https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-wearing-hats-taking-photos-picture-image_2505109.jpg",
+            "followers": 8.2,
+            "followed": ["52af", "8ac21"],
+            "post": ["d8e4b", "19a73"]
+          },
+          {
+            "id": "39c8a",
+            "name": "Kim Jisoo",
+            "email": "Jisoo@email.com",
+            "password": "Jisoo1234",
+            "description": "Hello everyone! Let's enjoy life together!",
+            "profile_photo": "https://i.pinimg.com/236x/1d/98/24/1d982488cc92a098c3cf70b2ec150916.jpg",
+            "cover_photo": "https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-wearing-hats-taking-photos-picture-image_2505109.jpg",
+            "followers": 11.4,
+            "followed": ["52af", "8ac21"],
+            "post": ["74cb9", "ec15f"]
+          }
+          
     ],
-    "post":[
+    "posts":[
         {
             "id":"478ef",
-            "image":"https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-taking-selfie-with-their-phone-picture-image_2505107.jpg",
+            "publication":"https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-taking-selfie-with-their-phone-picture-image_2505107.jpg",
+            "type":"image",
             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ullamcorper aliquam augue fermentum, vel, risus, adipiscing.Tellus vestibulum magnis ut elit, vitae mattis sapien. Laoreet nam....",
             "id_profile":"52af",
-            "tags":[]
+            "tags":[],
+            "likes":["8ac21"],
+            "comments":["ea22ee"]
         },
         {
             "id":"ad192",
-            "image":"https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-taking-selfie-with-their-phone-picture-image_2505107.jpg",
+            "publication":"https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-taking-selfie-with-their-phone-picture-image_2505107.jpg",
+            "type":"image",
             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ullamcorper aliquam augue fermentum, vel, risus, adipiscing.Tellus vestibulum magnis ut elit, vitae mattis sapien. Laoreet nam....",
             "id_profile":"52af",
-            "tags":["8ac21"]
-
-        }
+            "tags":["8ac21"],
+            "likes":["17bf2"],
+            "comments":[]
+        },
+        {
+            "id": "ea22ee",
+            "publication": "https://png.pngtree.com/background/20230513/original/pngtree-group-of-three-happy-asian-people-laughing-and-taking-selfie-in-picture-image_2505103.jpg",
+            "type": "image",
+            "description": "¡Gran día con amigos! #diversión #sonrisas",
+            "id_profile": "8ac21",
+            "tags": ["52af", "17bf2"],
+            "likes": ["52af", "17bf2"],
+            "comments": ["478ef", "ad192"]
+          },
+          {
+            "id": "478ef",
+            "publication": "https://png.pngtree.com/background/20230513/original/pngtree-group-of-three-happy-asian-people-laughing-and-taking-selfie-in-picture-image_2505103.jpg",
+            "type": "image",
+            "description": "¡Mirando hacia el futuro! #amigos #aventuras",
+            "id_profile": "17bf2",
+            "tags": ["8ac21", "ea22ee"],
+            "likes": ["8ac21", "ea22ee"],
+            "comments": ["ad192", "ea22ee"]
+          },
+          {
+            "id": "ad192",
+            "publication": "https://png.pngtree.com/background/20230513/original/pngtree-group-of-three-happy-asian-people-laughing-and-taking-selfie-in-picture-image_2505103.jpg",
+            "type": "image",
+            "description": "¡Momentos inolvidables con los mejores amigos! #felicidad #recuerdos",
+            "id_profile": "39c8a",
+            "tags": ["8ac21", "ea22ee"],
+            "likes": ["52af", "8ac21", "ea22ee"],
+            "comments": ["478ef"]
+          }
+          
+    ],
+    "comments":[
+        {
+            "id":"ea22ee",
+            "id_post":"478ef",
+            "id_user":"8ac21",
+            "content":"lorem",
+            "date":"12/03/24",
+            "hour":"17:22"
+        },
+        {
+            "id": "9fb1f",
+            "id_post": "478ef",
+            "id_user": "52af",
+            "content": "¡Qué bonita foto! 😍",
+            "date": "14/03/24",
+            "hour": "10:45"
+          },
+          {
+            "id": "d43ae",
+            "id_post": "478ef",
+            "id_user": "17bf2",
+            "content": "Me encanta esta imagen, ¡parece que se están divirtiendo mucho!",
+            "date": "15/03/24",
+            "hour": "13:20"
+          },
+          {
+            "id": "56db9",
+            "id_post": "ad192",
+            "id_user": "8ac21",
+            "content": "¡Qué hermoso recuerdo! 😊",
+            "date": "16/03/24",
+            "hour": "09:55"
+          },
+          {
+            "id": "c89ef",
+            "id_post": "ad192",
+            "id_user": "39c8a",
+            "content": "¡Estoy segura de que fue un día increíble! 😄",
+            "date": "17/03/24",
+            "hour": "14:10"
+          }          
     ]
 
 }
