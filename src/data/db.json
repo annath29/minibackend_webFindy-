@@ -18,7 +18,7 @@
           "email": "Lisa@email.com",
           "password": "Lisa1234",
           "description": "Hey everyone! Let's spread love and positivity!",
-          "profile_photo": "https://i.pinimg.com/236x/af/7c/20/af7c208e31b02a4c4f3f498bb4c4fd75.jpg",
+          "profile_photo": "https://media.vogue.es/photos/5dc550f19cb9a30008d7c8cb/2:3/w_2560%2Cc_limit/champu_ducha.jpg",
           "cover_photo": "https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-wearing-hats-taking-photos-picture-image_2505109.jpg",
           "followers": 9.5,
           "followed": ["52af"],
@@ -30,7 +30,7 @@
           "email": "Rose@email.com",
           "password": "Rose1234",
           "description": "Hi everyone! Join me on my journey!",
-          "profile_photo": "https://i.pinimg.com/236x/42/17/a3/4217a3b4ed9e5f4a6ec839ff7bfc4ab2.jpg",
+          "profile_photo": "https://static.vecteezy.com/system/resources/previews/007/260/332/non_2x/beautiful-asian-women-exercise-in-the-park-every-morning-it-is-a-lifestyle-for-relaxation-and-good-health-of-the-body-free-photo.jpg",
           "cover_photo": "https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-wearing-hats-taking-photos-picture-image_2505109.jpg",
           "followers": 8.2,
           "followed": ["52af", "8ac21"],
@@ -42,7 +42,7 @@
           "email": "Jisoo@email.com",
           "password": "Jisoo1234",
           "description": "Hello everyone! Let's enjoy life together!",
-          "profile_photo": "https://i.pinimg.com/236x/1d/98/24/1d982488cc92a098c3cf70b2ec150916.jpg",
+          "profile_photo": "https://s1.elespanol.com/2022/10/28/mujer/belleza/714188900_228322385_1706x960.jpg",
           "cover_photo": "https://png.pngtree.com/background/20230513/original/pngtree-two-asian-girls-wearing-hats-taking-photos-picture-image_2505109.jpg",
           "followers": 11.4,
           "followed": ["52af", "8ac21"],
@@ -54,86 +54,110 @@
     "posts":[
       {
         "id":"478ep",
-        "url":"https://images.hdqwalls.com/wallpapers/jennie-from-blackpink-3n.jpg",
+        "content":[
+          "https://images.hdqwalls.com/wallpapers/jennie-from-blackpink-3n.jpg"
+        ],
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ullamcorper aliquam augue fermentum, vel, risus, adipiscing.Tellus vestibulum magnis ut elit, vitae mattis sapien. Laoreet nam....",
         "id_profile":"52af",
-        "category":"photo",
+        "category":"image",
         "tags":[],
         "likes":["8ac21"],
-        "comments":["ea22ee"]
+        "comments":["ea22ee"],
+        "share":["17bf2", "39c8a"]
       },
-    {
+      {
         "id":"ad185",
-        "url":"https://i.pinimg.com/originals/b3/9e/7a/b39e7a7079af19cc7fad16d0a4b2cf79.jpg",
+        "content":[
+          "https://i.pinimg.com/originals/b3/9e/7a/b39e7a7079af19cc7fad16d0a4b2cf79.jpg"
+        ],
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ullamcorper aliquam augue fermentum, vel, risus, adipiscing.Tellus vestibulum magnis ut elit, vitae mattis sapien. Laoreet nam....",
         "id_profile":"52af",
-        "category":"photo",
+        "category":"image",
         "tags":["8ac21"],
         "likes":["17bf2"],
-        "comments":[]
-
-    },
-    {
+        "comments":[],
+        "share":["52af"]
+      },
+      {
         "id":"ad193",
-        "url":"https://wallpapercave.com/wp/wp3927876.jpg",
+        "content":[
+          "https://wallpapercave.com/wp/wp3927876.jpg"
+        ],
         "description":"<3",
         "id_profile":"52af",
-        "category":"photo",
+        "category":"image",
         "tags": ["17bf2"],
         "likes": ["17bf2"],
-        "comments": []
-
-    },
-    {
+        "comments": [],
+        "share": ["52af"]
+      },
+      {
         "id":"ad196",
-        "url":"https://wallpapercave.com/wp/wp3927918.jpg",
+        "content":[
+          "https://wallpapercave.com/wp/wp3927918.jpg"
+        ],
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ullamcorper aliquam augue fermentum, vel, risus, adipiscing.Tellus vestibulum magnis ut elit, vitae mattis sapien. Laoreet nam....",
         "id_profile":"52af",
-        "category":"photo",
+        "category":"image",
         "tags":[],
         "likes":["8ac21"],
-        "comments":["ea22ee"]
-    },
-    {
+        "comments":["ea22ee"],
+        "share":["39c8a"]
+      },
+      {
         "id":"ad198",
-        "url":"https://i.pinimg.com/originals/b8/fb/c2/b8fbc2cb6555fcab81513307ad8f1536.jpg",
+        "content":[
+          "https://i.pinimg.com/originals/b8/fb/c2/b8fbc2cb6555fcab81513307ad8f1536.jpg"
+        ],
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ullamcorper aliquam augue fermentum, vel, risus, adipiscing.Tellus vestibulum magnis ut elit, vitae mattis sapien. Laoreet nam....",
         "id_profile":"52af",
-        "category":"photo",
+        "category":"image",
         "tags":[],
         "likes":["8ac21"],
-        "comments":["ea22ee"]
-    },
-    {
+        "comments":["ea22ee"],
+        "share":["17bf2"]
+      },
+      {
         "id": "ea22ee",
-        "url": "https://png.pngtree.com/background/20230513/original/pngtree-group-of-three-happy-asian-people-laughing-and-taking-selfie-in-picture-image_2505103.jpg",
+        "content": [
+          "https://hips.hearstapps.com/hmg-prod/images/my-first-first-love-1608633571.jpg?crop=1xw:0.6612460815047022xh;center,top"
+        ],
         "description": "¡Gran día con amigos! #diversión #sonrisas",
         "id_profile": "8ac21",
-        "category":"photo",
+        "category":"image",
         "tags": ["52af", "17bf2"],
         "likes": ["52af", "17bf2"],
-        "comments": ["478ef", "ad192"]
+        "comments": ["478ef", "ad192"],
+        "share": ["478ep", "ad185"]
       },
       {
         "id": "478ef",
-        "url": "https://png.pngtree.com/background/20230513/original/pngtree-group-of-three-happy-asian-people-laughing-and-taking-selfie-in-picture-image_2505103.jpg",
+        "content": [
+          "https://cdn.pixabay.com/video/2023/10/01/183107-870151708_large.mp4"
+        ],
         "description": "¡Mirando hacia el futuro! #amigos #aventuras",
         "id_profile": "17bf2",
-        "category":"photo",
+        "category":"video",
         "tags": ["8ac21", "ea22ee"],
         "likes": ["8ac21", "ea22ee"],
-        "comments": ["ad192", "ea22ee"]
+        "comments": ["ad192", "ea22ee"],
+        "share": ["478ep"]
       },
       {
         "id": "ad192",
-        "url": "https://png.pngtree.com/background/20230513/original/pngtree-group-of-three-happy-asian-people-laughing-and-taking-selfie-in-picture-image_2505103.jpg",
+        "content": [
+          "https://static.vecteezy.com/system/resources/previews/024/705/348/non_2x/group-asian-people-picnic-outside-photo.jpg",
+          "https://static.vecteezy.com/system/resources/previews/024/704/718/non_2x/group-asian-people-picnic-outside-photo.jpg"
+        ],
         "description": "¡Momentos inolvidables con los mejores amigos! #felicidad #recuerdos",
         "id_profile": "39c8a",
-        "category":"photo",
+        "category":"album",
         "tags": ["8ac21", "ea22ee"],
         "likes": ["52af", "8ac21", "ea22ee"],
-        "comments": ["478ef"]
+        "comments": ["478ef"],
+        "share": ["ea22ee", "ad198"]
       }
+      
     ],
 
     "comments":[
